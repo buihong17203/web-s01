@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Giới thiệu Sản phẩm</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <h1>Danh sách Sản phẩm</h1>
+    <div
+      class="product-grid"
+      id="product-list"
+    >
+      <!-- Sản phẩm sẽ được render ở đây -->
+    </div>
+    <h2>Giỏ hàng</h2>
+    <div id="cart">
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th>Xóa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Sản phẩm trong giỏ hàng sẽ được render ở đây -->
+        </tbody>
+      </table>
+      <div class="cart-total">
+        Tổng tiền: <span id="total-price">0</span> VNĐ
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
