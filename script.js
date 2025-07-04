@@ -4,19 +4,19 @@ const products = [
     id: 1,
     name: 'Sp 1',
     price: 350000,
-    image: 'src/Sp1.jpg'
+    image: 'Sp1.jpg'
   },
   {
     id: 2,
     name: 'Sp 2',
     price: 10000,
-    image: 'src/Sp2.jpg'
+    image: 'Sp2.jpg'
   },
   {
     id: 3,
     name: 'Sp 3',
     price: 650000,
-    image: 'src/Sp3.jpg'
+    image: 'Sp3.jpg'
   }
 ]
 
